@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="app.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="directives\links.dir.js" Target="Scripts\directives\" Type="ElementFile" />
+    <ProjectItemFile Source="controllers\links.ctrl.js" Target="Scripts\controllers\" Type="ElementFile" />
+    <ProjectItemFile Source="services\links.data.srv.js" Target="Scripts\services\" Type="ElementFile" />
+    <ProjectItemFile Source="common.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="logger.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

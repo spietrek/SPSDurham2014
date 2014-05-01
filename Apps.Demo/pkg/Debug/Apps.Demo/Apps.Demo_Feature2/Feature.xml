@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="059c6fdb-b5f5-4800-b764-4067b42aa0b9" Scope="Web" Title="Apps.Demo Feature2" Version="1.0.0.5">
+  <ElementManifests>
+    <ElementManifest Location="LinksInstance\Elements.xml" />
+    <ElementManifest Location="Links\Elements.xml" />
+    <ElementFile Location="Links\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="LinksInstance\Elements.xml" />
+        <ElementManifest Location="Links\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

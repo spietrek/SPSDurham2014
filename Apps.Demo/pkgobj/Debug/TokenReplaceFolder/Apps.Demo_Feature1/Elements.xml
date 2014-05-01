@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="lib\angular\angular.min.js" Url="lib/angular/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="lib\jquery\jquery-1.9.1.min.map" Url="lib/jquery/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="lib\jquery\jquery-1.9.1.min.js" Url="lib/jquery/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="lib\toastr\toastr.min.js" Url="lib/toastr/toastr.min.js" ReplaceContent="TRUE" />
+    <File Path="lib\toastr\toastr.min.css" Url="lib/toastr/toastr.min.css" ReplaceContent="TRUE" />
+    <File Path="lib\angular\angular.js" Url="lib/angular/angular.js" ReplaceContent="TRUE" />
+    <File Path="lib\jquery\jquery.url.js" Url="lib/jquery/jquery.url.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

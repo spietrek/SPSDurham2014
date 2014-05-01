@@ -1,0 +1,18 @@
+﻿<div>
+    <div>
+        <div class="csg-links-wpheader">
+            <div class="csg-links-wpheaderoptions">
+                <div class="csg-links-wpheadernavigate" ng-click="openList()"></div>
+                <div class="csg-links-wpheaderrefresh" ng-click="refreshData()"></div>
+            </div>
+            <div class="csg-links-wpheaderleft">
+                <p class="csg-links-wptitle">{{webPartTitle}} ({{linksCount}})</p>
+            </div>
+        </div>
+        <ul class="csg-links-linkslist">
+            <li data-ng-repeat="link in links">
+                <a data-ng-href="{{link.linkUrl}}" target="_blank">{{link.title}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

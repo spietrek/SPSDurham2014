@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\directives\links.dir.js" Url="Scripts/directives/links.dir.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\links.ctrl.js" Url="Scripts/controllers/links.ctrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\services\links.data.srv.js" Url="Scripts/services/links.data.srv.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\common.js" Url="Scripts/common.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\logger.js" Url="Scripts/logger.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

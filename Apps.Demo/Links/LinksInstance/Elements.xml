@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Links" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Links" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Link 1</Field>
+          <Field Name="LinkUrl">http://www.cardinalsolutions.com/</Field>
+          <Field Name="LinkGroup">GL</Field>
+          <Field Name="SortOrder">1</Field>
+          <Field Name="IsPublished">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Link 2</Field>
+          <Field Name="LinkUrl">http://www.cardinalsolutions.com/</Field>
+          <Field Name="LinkGroup">GL</Field>
+          <Field Name="SortOrder">2</Field>
+          <Field Name="IsPublished">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Link 3</Field>
+          <Field Name="LinkUrl">http://www.cardinalsolutions.com/</Field>
+          <Field Name="LinkGroup">GL</Field>
+          <Field Name="SortOrder">3</Field>
+          <Field Name="IsPublished">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Link 4</Field>
+          <Field Name="LinkUrl">http://www.cardinalsolutions.com/</Field>
+          <Field Name="LinkGroup">GL</Field>
+          <Field Name="SortOrder">4</Field>
+          <Field Name="IsPublished">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Link 5</Field>
+          <Field Name="LinkUrl">http://www.cardinalsolutions.com/</Field>
+          <Field Name="LinkGroup">GL</Field>
+          <Field Name="SortOrder">5</Field>
+          <Field Name="IsPublished">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
