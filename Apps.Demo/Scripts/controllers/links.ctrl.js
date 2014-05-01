@@ -7,7 +7,8 @@
     angular.module('linksApp').controller(controllerId, ['$scope', 'common', 'config', 'linksDataService', linksController]);
 
     function linksController($scope, common, config, linksDataService) {
-        $scope.webPartTitle = config.appTitle;
+        $scope.links = {};
+        $scope.links.webPartTitle = config.appTitle;
 
         init();
 
@@ -36,8 +37,7 @@
                 });
 
                 // Set scope
-                $scope.links = newData;
-                $scope.linksCount = newData.length;
+                $scope.links.data = newData;
             });
         }
 

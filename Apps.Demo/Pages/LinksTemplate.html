@@ -6,11 +6,11 @@
                 <div class="csg-links-wpheaderrefresh" ng-click="refreshData()"></div>
             </div>
             <div class="csg-links-wpheaderleft">
-                <p class="csg-links-wptitle">{{webPartTitle}} ({{linksCount}})</p>
+                <p class="csg-links-wptitle">{{links.webPartTitle}} ({{(links.data).length}})</p>
             </div>
         </div>
         <ul class="csg-links-linkslist">
-            <li data-ng-repeat="link in links">
+            <li data-ng-repeat="link in links.data">
                 <a data-ng-href="{{link.linkUrl}}" target="_blank">{{link.title}}</a>
             </li>
         </ul>
