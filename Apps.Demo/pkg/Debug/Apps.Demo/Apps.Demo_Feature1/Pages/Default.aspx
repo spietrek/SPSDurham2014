@@ -26,17 +26,6 @@
         </div>
     </div>
 
-    <!--
-        X 1. Add support for logging
-        X 2. Add support to show toasts
-        3. Add support to select different link groups
-        4. Add support to create/delete links from directive
-        5. Add support to open list from directive
-        6. Add support to refresh data from directive
-        7. Add support to retrieve urls from commonService
-        8. Add button to display an error
-    -->
-
     <script type="text/javascript" src="../lib/jquery/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../lib/jquery/jquery.url.js"></script>
     <script type="text/javascript" src="../lib/angular/angular.min.js"></script>
